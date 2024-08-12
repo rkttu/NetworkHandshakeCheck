@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<OutputType>Library</OutputType>
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		<AssemblyName>NetworkHandshakeCheck</AssemblyName>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<RootNamespace>NetworkHandshakeCheck</RootNamespace>
+		<Title>NetworkHandshakeCheck</Title>
+		<Version>0.5.0</Version>
+		<Authors>Jung Hyun, Nam</Authors>
+		<Company>rkttu.com</Company>
+		<Product>NetworkHandshakeCheck</Product>
+		<Description>A framework that helps you communicate with servers over arbitrary network protocols, including well-known ones, and check the status of their responses.</Description>
+		<Copyright>(c) 2024 Jung Hyun, Nam, All rights reserved.</Copyright>
+		<PackageProjectUrl>https://github.com/rkttu/NetworkHandshakeCheck</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/rkttu/NetworkHandshakeCheck</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>network;handshake;tcp;ping;socket;ssl</PackageTags>
+		<PackageReleaseNotes>https://github.com/rkttu/NetworkHandshakeCheck/releases</PackageReleaseNotes>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<IncludeSymbols>True</IncludeSymbols>
+		<SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+			<_Parameter1>$(AssemblyName).Tests</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+</Project>

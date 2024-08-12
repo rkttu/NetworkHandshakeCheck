@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkHandshakeCheck", "NetworkHandshakeCheck\NetworkHandshakeCheck.csproj", "{675BEB50-65E5-4F4D-A6ED-0C5081AB1047}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkHandshakeCheck.Tests", "NetworkHandshakeCheck.Tests\NetworkHandshakeCheck.Tests.csproj", "{457EE06E-39A4-42F0-9E14-AC0C77D2589E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{4C852FD0-076D-487E-8FBE-42C6CC242875}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\dotnet.yml = ..\.github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B72A9745-CE16-4851-9E01-015C0EDFBD0A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{457EE06E-39A4-42F0-9E14-AC0C77D2589E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457EE06E-39A4-42F0-9E14-AC0C77D2589E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457EE06E-39A4-42F0-9E14-AC0C77D2589E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457EE06E-39A4-42F0-9E14-AC0C77D2589E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675BEB50-65E5-4F4D-A6ED-0C5081AB1047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675BEB50-65E5-4F4D-A6ED-0C5081AB1047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675BEB50-65E5-4F4D-A6ED-0C5081AB1047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675BEB50-65E5-4F4D-A6ED-0C5081AB1047}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
