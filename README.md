@@ -1,5 +1,7 @@
 # NetworkHandshakeCheck
 
+[![NuGet Version](https://img.shields.io/nuget/v/NetworkHandshakeCheck)](https://www.nuget.org/packages/NetworkHandshakeCheck/) ![Build Status](https://github.com/rkttu/NetworkHandshakeCheck/actions/workflows/dotnet.yml/badge.svg) [![GitHub Sponsors](https://img.shields.io/github/sponsors/rkttu)](https://github.com/sponsors/rkttu/)
+
 A framework that helps you communicate with servers over arbitrary network protocols, including well-known ones, and check the status of their responses.
 
 ## How to use
